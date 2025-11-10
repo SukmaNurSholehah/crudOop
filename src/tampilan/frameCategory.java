@@ -23,7 +23,8 @@ public class frameCategory extends javax.swing.JFrame {
         load_table();
     }
     void reset(){
-        tIdCategory.setText(null);
+        autoID();
+        tIdCategory.setEditable(false);
         tNameCategory.setText(null);
     }
     
