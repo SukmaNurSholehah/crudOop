@@ -28,7 +28,7 @@ public class frameProduct extends javax.swing.JFrame {
     
     void reset(){
         autoID();
-        tId.setText(null);
+        tId.setEditable(false);
         tName.setText(null);
         cCategory.setSelectedItem(null);
         tDescription.setText(null);
