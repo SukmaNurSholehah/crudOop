@@ -368,6 +368,7 @@ public class frameUser extends javax.swing.JFrame {
     private void bKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bKembaliActionPerformed
         // TODO add your handling code here:
         dispose();
+        new frameDashboard().setVisible(true);
     }//GEN-LAST:event_bKembaliActionPerformed
 
     /**

@@ -144,16 +144,19 @@ public class frameDashboard extends javax.swing.JFrame {
 
     private void mProductMenuSelected(javax.swing.event.MenuEvent evt) {//GEN-FIRST:event_mProductMenuSelected
         // TODO add your handling code here:
+        dispose();
         new frameProduct().setVisible(true);
     }//GEN-LAST:event_mProductMenuSelected
 
     private void mCategoryMenuSelected(javax.swing.event.MenuEvent evt) {//GEN-FIRST:event_mCategoryMenuSelected
         // TODO add your handling code here:
+        dispose();
         new frameCategory().setVisible(true);
     }//GEN-LAST:event_mCategoryMenuSelected
 
     private void mUserMenuSelected(javax.swing.event.MenuEvent evt) {//GEN-FIRST:event_mUserMenuSelected
         // TODO add your handling code here:
+        dispose();
         new frameUser().setVisible(true);
     }//GEN-LAST:event_mUserMenuSelected
 
